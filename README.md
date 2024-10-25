@@ -10,7 +10,11 @@ R language: https://cran.r-project.org/bin/windows/base/
 RStudio IDE: https://posit.co/download/rstudio-desktop/
 
 ## Getting Started
+For exercise 1:
+1. Run ./Exercise 1/ex1.R in RStudio
+   
+For Exercise 3:
 1. Run `pip install pandas` or `pip3 install pandas`
-2. Run `cleanse.py`
-3. Open `analysis.R` in RStudio
+2. Run `./Exercise 3/cleanse.py`
+3. Open `./Exercise 3/analysis.R` in RStudio
 4. Run analysis 
