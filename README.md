@@ -11,7 +11,7 @@ RStudio IDE: https://posit.co/download/rstudio-desktop/
 
 ## Getting Started
 For exercise 1:
-1. Run ./Exercise 1/ex1.R in RStudio
+1. Run `./Exercise 1/ex1.R` in RStudio
    
 For Exercise 3:
 1. Run `pip install pandas` or `pip3 install pandas`
