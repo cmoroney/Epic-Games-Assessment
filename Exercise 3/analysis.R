@@ -1,4 +1,6 @@
 # Import libraries
+# Uncomment line below if tidyverse is not already installed
+# install.packages("tidyverse")
 library(tidyverse)
 
 # Import data and clean column names
