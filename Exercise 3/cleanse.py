@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Import CSV's
-installs_raw = pd.read_csv("./installs.csv")
-activity_raw = pd.read_csv("./activity.csv")
+installs_raw = pd.read_csv("./raw/installs.csv")
+activity_raw = pd.read_csv("./raw/activity.csv")
 
 # Files at a glance
 print("activity.csv at a glance: \n")
@@ -103,5 +103,5 @@ df_installs_country = df.groupby(['INSTALL_MONTH', 'COUNTRY_CODE'])['USER_ID'].n
 
 # Output to csv
 print("Saving file as merged_data.csv...")
-df.to_csv("./merged_data.csv")
+df.to_csv("./output/merged_data.csv")
 print("Done.")

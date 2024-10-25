@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Import data and clean column names
-merged_df <- read_csv("merged_data.csv") %>% 
+merged_df <- read_csv("./output/merged_data.csv") %>% 
   janitor::clean_names()
 
 
